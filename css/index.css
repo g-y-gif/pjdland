@@ -113,14 +113,14 @@ ul.nav li img {
 }
 
 /* s02 */
-.s02 {
+.s02, .s03 {
     text-align: center;
     display: flex;
     align-items: center;
     height: 100vh;
     position: relative;
 }
-.s02 img {
+.s02 img, .s03 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -129,7 +129,7 @@ ul.nav li img {
 
 
 
-.wrap {
+.wrap, .wrap1 {
     width: 1400px;
     height: 850px;
     /* display: flex; */
@@ -144,7 +144,9 @@ ul.nav li img {
     display: none;
 }
 
-.t1, .t2, .t3, .t4, .t5, .t6, .t7 {
+
+.a1, .a2, .a3, .a4, .a5, .a6, .a7
+.b1, .b2, .b3, .b4, .b5, .b6, .b7 {
     width: 100%;
     height: 100%;
     /* display: flex; */
@@ -705,7 +707,7 @@ ul.nav li img {
     width: 75px;
     height: 75px;
     text-indent: -99999px;
-    background: url(/images/refresh.png) ,url(/images/map.png);
+    background: url(/pjdland/images/refresh.png) ,url(/pjdland/images/map.png);
     background-repeat: no-repeat;
     background-size: 20px 20px, 50px 50px;
     background-position: 4px 2px, center;
@@ -758,7 +760,7 @@ ul.nav li img {
 /* pop right */
 .pop .right {
     width: 20%;
-    background: url(/images/castle.png) bottom center no-repeat;
+    background: url(/pjdland/images/castle.png) bottom center no-repeat;
     background-size: 150%;
 }
 .pop .right ul.theme {
@@ -769,22 +771,22 @@ ul.nav li img {
     font-size: 32px;
     color: #fff;
 }
-.t2 .pop .right ul.theme {
+.a2 .pop .right ul.theme {
     background: #248615;
 }
-.t3 .pop .right ul.theme {
+.a3 .pop .right ul.theme {
     background: #592108;
 }
-.t4 .pop .right ul.theme {
+.a4 .pop .right ul.theme {
     background: #00A9F0;
 }
-.t5 .pop .right ul.theme {
+.a5 .pop .right ul.theme {
     background: #AF16A3;
 }
-.t6 .pop .right ul.theme {
+.a6 .pop .right ul.theme {
     background: #FF9600;
 }
-.t7 .pop .right ul.theme {
+.a7 .pop .right ul.theme {
     background: #1269B9;
 }
 
@@ -812,5 +814,311 @@ ul.nav li img {
 }
 
 
+/* s03 attraction */
+/* mediterraneanHarbor */
+.S1_01 {
+    background: url(/pjdland/images/sea/01/S1_01m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS1_01 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/01/S1_01b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S1_02 {
+    background: url(/pjdland/images/sea/01/S1_02m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS1_02 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/01/S1_02b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S1_03 {
+    background: url(/pjdland/images/sea/01/S1_03m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS1_03 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/01/S1_03b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S1_04 {
+    background: url(/pjdland/images/sea/01/S1_04m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS1_04 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/01/S1_04b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* americanWaterfront */
+.S2_27 {
+    background: url(/pjdland/images/sea/02/S2_27m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS2_27 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/02/S2_27b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S2_28 {
+    background: url(/pjdland/images/sea/02/S2_28m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS2_28 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/02/S2_28b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S2_29 {
+    background: url(/pjdland/images/sea/02/S2_29m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS2_29 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/02/S2_29b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S2_30 {
+    background: url(/pjdland/images/sea/02/S2_30m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS2_30 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/02/S2_30b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S2_31 {
+    background: url(/pjdland/images/sea/02/S2_31m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS2_31 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/02/S2_31b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S2_32 {
+    background: url(/pjdland/images/sea/02/S2_32m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS2_32 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/02/S2_32b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* portDiscovery */
+.S3_55 {
+    background: url(/pjdland/images/sea/03/S3_55m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS3_55 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/03/S3_55b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S3_56 {
+    background: url(/pjdland/images/sea/03/S3_56m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS3_56 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/03/S3_56b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S3_57 {
+    background: url(/pjdland/images/sea/03/S3_57m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS3_57 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/03/S3_57b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* lostRiverDelta */
+.S4_64 {
+    background: url(/pjdland/images/sea/04/S4_64m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS4_64 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/04/S4_64b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S4_65 {
+    background: url(/pjdland/images/sea/04/S4_65m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS4_65 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/04/S4_65b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S4_66 {
+    background: url(/pjdland/images/sea/04/S4_66m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS4_66 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/04/S4_66b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* arabianCoast */
+.S5_79 {
+    background: url(/pjdland/images/sea/05/S5_79m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS5_79 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/05/S5_79b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S5_80 {
+    background: url(/pjdland/images/sea/05/S5_80m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS5_80 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/05/S5_80b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S5_81 {
+    background: url(/pjdland/images/sea/05/S5_81m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS5_81 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/05/S5_81b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S5_82 {
+    background: url(/pjdland/images/sea/05/S5_82m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS5_82 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/05/S5_82b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* mermaidLagoon */
+.S6_88 {
+    background: url(/pjdland/images/sea/06/S6_88m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS6_88 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/06/S6_88b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
 
 
+.b1 .pop .right ul.theme {
+    background: #8A410A;
+}
+.b2 .pop .right ul.theme {
+    background: #BA3864;
+}
+.b3 .pop .right ul.theme {
+    background: #C8B310;
+}
+.b4 .pop .right ul.theme {
+    background: #016B2E;
+}
+.b5 .pop .right ul.theme {
+    background: #7244B2;
+}
+.b6 .pop .right ul.theme {
+    background: #E4858B;
+}
+.b7 .pop .right ul.theme {
+    background: #028777;
+}
