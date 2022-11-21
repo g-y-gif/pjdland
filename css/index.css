@@ -1,0 +1,816 @@
+@charset "utf-8";
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans';
+    list-style: none;
+    word-break: keep-all;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid skyblue; */
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header */
+#header {
+    height: 75px;
+    position: fixed;
+    z-index: 100;
+    border-radius: 0 0 30px 30px;
+    background: rgba(255, 255, 255, 0.3);
+    transition: .6s;
+    max-width: 100%;
+
+}
+ul.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+ul.nav li {
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+ul.nav li img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+/* logo size */
+.main_L {
+    width: 131px;
+    height: 60px;
+}
+.land_L {
+    width: 142px;
+    height: 53px;
+}
+.sea_L {
+    width: 107px;
+    height: 64px;
+}
+
+/* s01 */
+.s01 {
+    height: 100vh;
+}
+.s01 h1 {
+    width: fit-content;
+    height: fit-content;
+    font-size: 120px;
+    font-family: 'Playfair Display';
+    position: absolute;
+    top: 65%;
+    left: 30px;
+    color: #fff;
+}
+
+.s01 .sideL, .s01 .sideS {
+    width: 100px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    background: #fff;
+    border: 2px solid #fff;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+}
+.s01 .sideL {
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+.s01 .sideS {
+    position: absolute;
+    right: 0;
+    top: 23%;
+}
+.sideL img {
+    width: 95px;
+    height: 110px;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.sideS img {
+    width: 124px;
+    height: 63px;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+/* s02 */
+.s02 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.s02 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+.wrap {
+    width: 1400px;
+    height: 850px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 20px 23px 15px 3px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6, .t7 {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    overflow: hidden;
+    display: none;
+}
+
+.pop {
+    flex-shrink: 0;
+    width: 1400px;
+    height: 850px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+/* pop left */
+.pop .left {
+    border-right: 1px solid #999;
+}
+/* worldBazaar */
+.L1_01 {
+    background: url(/images/land/01/L1_01m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL1_01 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/01/L1_01b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L1_02 {
+    background: url(/images/land/01/L1_02m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL1_02 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/01/L1_02b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* adventureLand */
+.L2_23 {
+    background: url(/images/land/02/L2_23m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL2_23 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/02/L2_23b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L2_24 {
+    background: url(/images/land/02/L2_24m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL2_24 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/02/L2_24b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L2_25 {
+    background: url(/images/land/02/L2_25m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL2_25 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/02/L2_25b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L2_26 {
+    background: url(/images/land/02/L2_26m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL2_26 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/02/L2_26b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L2_27 {
+    background: url(/images/land/02/L2_27m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL2_27 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/02/L2_27b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+/* westernLand */
+.L3_49 {
+    background: url(/images/land/03/L3_49m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL3_49 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/03/L3_49b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L3_50 {
+    background: url(/images/land/03/L3_50m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL3_50 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/03/L3_50b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L3_51 {
+    background: url(/images/land/03/L3_51m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL3_51 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/03/L3_51b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L3_52 {
+    background: url(/images/land/03/L3_52m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL3_52 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/03/L3_52b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L3_53 {
+    background: url(/images/land/03/L3_53m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL3_53 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/03/L3_53b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+/* critterCountry */
+.L4_68 {
+    background: url(/images/land/04/L4_68m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL4_68 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/04/L4_68b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L4_69 {
+    background: url(/images/land/04/L4_69m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL4_69 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/04/L4_69b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+/* fantasyLand */
+.L5_74 {
+    background: url(/images/land/05/L5_74m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_74 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_74b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_75 {
+    background: url(/images/land/05/L5_75m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_75 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_75b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_76 {
+    background: url(/images/land/05/L5_76m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_76 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_76b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_77 {
+    background: url(/images/land/05/L5_77m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_77 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_77b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_78 {
+    background: url(/images/land/05/L5_78m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_78 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_78b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_79 {
+    background: url(/images/land/05/L5_79m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_79 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_79b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_80 {
+    background: url(/images/land/05/L5_80m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_80 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_80b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_81 {
+    background: url(/images/land/05/L5_81m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_81 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_81b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_82 {
+    background: url(/images/land/05/L5_82m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_82 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_82b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_83 {
+    background: url(/images/land/05/L5_83m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_83 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_83b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_84 {
+    background: url(/images/land/05/L5_84m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_84 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_84b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L5_85 {
+    background: url(/images/land/05/L5_85m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL5_85 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/05/L5_85b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* toontown */
+.L6_104 {
+    background: url(/images/land/06/L6_104m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL6_104 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/06/L6_104b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L6_105 {
+    background: url(/images/land/06/L6_105m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL6_105 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/06/L6_105b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L6_106 {
+    background: url(/images/land/06/L6_106m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL6_106 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/06/L6_106b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L6_107 {
+    background: url(/images/land/06/L6_107m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL6_107 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/06/L6_107b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L6_108 {
+    background: url(/images/land/06/L6_108m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL6_108 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/06/L6_108b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L6_109 {
+    background: url(/images/land/06/L6_109m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL6_109 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/06/L6_109b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L6_110 {
+    background: url(/images/land/06/L6_110m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL6_110 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/06/L6_110b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+/* tomorrowLand */
+.L7_120 {
+    background: url(/images/land/07/L7_120m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL7_120 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/07/L7_120b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L7_121 {
+    background: url(/images/land/07/L7_121m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL7_121 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/07/L7_121b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L7_122 {
+    background: url(/images/land/07/L7_122m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL7_122 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/07/L7_122b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L7_123 {
+    background: url(/images/land/07/L7_123m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL7_123 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/07/L7_123b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L7_124 {
+    background: url(/images/land/07/L7_124m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL7_124 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/07/L7_124b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.L7_125 {
+    background: url(/images/land/07/L7_125m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DL7_125 .left {
+    width: 80%;
+    background: url(/images/mini_logo.png), url(/images/whiteframe.png), url(/images/land/07/L7_125b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+
+
+
+.pop .left .location {
+    text-indent: -10000px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    right: 25px;
+}
+.pop .left .return {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    text-indent: -99999px;
+    background: url(/images/refresh.png) ,url(/images/map.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px, 50px 50px;
+    background-position: 4px 2px, center;
+}
+.pop .left .text {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 0 15px;
+}
+.pop .left .text p {
+    font-family: 'Gowun Batang';
+}
+.pop .left .text p.copy {
+    width: 500px;
+    text-align: justify;
+    font-size: 21px;
+}
+/* text width 개별 조정 */
+.DL2_24 > .left .text p.copy,
+.DL7_125 > .left .text p.copy,
+.DL7_123 > .left .text p.copy {
+    width: 470px;
+}
+.DL2_24 > .left .text {
+    gap: 0;
+}
+.pop .left .text p.title {
+    font-size: 58px;
+}
+.pop .left .text p.type {
+    font-size: 22px;
+}
+
+.pop .left .text::after {
+    content: "";
+    display: block;
+    width: 1000px;
+    height: 1px;
+    background: #000;
+    margin-top: 30px;
+}
+
+/* pop right */
+.pop .right {
+    width: 20%;
+    background: url(/images/castle.png) bottom center no-repeat;
+    background-size: 150%;
+}
+.pop .right ul.theme {
+    width: 100%;
+    height: 50px;
+    background: #F66E70;
+    line-height: 50px;
+    font-size: 32px;
+    color: #fff;
+}
+.t2 .pop .right ul.theme {
+    background: #248615;
+}
+.t3 .pop .right ul.theme {
+    background: #592108;
+}
+.t4 .pop .right ul.theme {
+    background: #00A9F0;
+}
+.t5 .pop .right ul.theme {
+    background: #AF16A3;
+}
+.t6 .pop .right ul.theme {
+    background: #FF9600;
+}
+.t7 .pop .right ul.theme {
+    background: #1269B9;
+}
+
+.pop .right ul.attraction > li {
+    color: #000;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.pop .right ul.attraction > li:hover {
+    color: #666;
+}
+
+/* s03 */
+.s03 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+} 
+.s03 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+
