@@ -22,20 +22,28 @@ a:visited {
 /* header */
 #header {
     height: 75px;
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 100;
     border-radius: 0 0 30px 30px;
     background: rgba(255, 255, 255, 0.3);
     transition: .6s;
     max-width: 100%;
-
 }
+#header:hover {
+    height: 100vh;
+    transition: .6s;
+}
+
 ul.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 35px;
+    cursor: pointer;
 }
+
 ul.nav li {
     height: 75px;
     text-align: center;
@@ -688,8 +696,6 @@ ul.nav li img {
 }
 
 
-
-
 .pop .left .location {
     text-indent: -10000px;
     width: 250px;
@@ -734,11 +740,15 @@ ul.nav li img {
 }
 /* text width 개별 조정 */
 .DL2_24 > .left .text p.copy,
+.DS3_57 > .left .text p.copy,
+.DS5_82 > .left .text p.copy,
+.DS6_93 > .left .text p.copy,
 .DL7_125 > .left .text p.copy,
 .DL7_123 > .left .text p.copy {
     width: 470px;
 }
-.DL2_24 > .left .text {
+.DL2_24 > .left .text,
+.DS7_102 > .left .text {
     gap: 0;
 }
 .pop .left .text p.title {
@@ -761,6 +771,10 @@ ul.nav li img {
 .pop .right {
     width: 20%;
     background: url(/pjdland/images/castle.png) bottom center no-repeat;
+    background-size: 150%;
+}
+.wrap1 .pop .right {
+    background: url(/pjdland/images/mermaide.png) bottom center no-repeat;
     background-size: 150%;
 }
 .pop .right ul.theme {
@@ -1099,6 +1113,113 @@ ul.nav li img {
     background-position-y: 765px, -62px, 0;
     position: relative;
 }
+.S6_89 {
+    background: url(/pjdland/images/sea/06/S6_89m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS6_89 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/06/S6_89b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S6_90 {
+    background: url(/pjdland/images/sea/06/S6_90m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS6_90 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/06/S6_90b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S6_91 {
+    background: url(/pjdland/images/sea/06/S6_91m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS6_91 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/06/S6_91b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S6_92 {
+    background: url(/pjdland/images/sea/06/S6_92m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS6_92 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/06/S6_92b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S6_93 {
+    background: url(/pjdland/images/sea/06/S6_93m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS6_93 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/06/S6_93b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S6_94 {
+    background: url(/pjdland/images/sea/06/S6_94m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS6_94 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/06/S6_94b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+
+
+/* mysteriousIsland */
+.S7_102 {
+    background: url(/pjdland/images/sea/07/S7_102m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS7_102 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/07/S7_102b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
+.S7_103 {
+    background: url(/pjdland/images/sea/07/S7_103m.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.DS7_103 .left {
+    width: 80%;
+    background: url(/pjdland/images/mini_logo.png), url(/pjdland/images/whiteframe.png), url(/pjdland/images/sea/07/S7_103b.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover, 108%;
+    background-position-x: 20px, -160px, -160px;
+    background-position-y: 765px, -62px, 0;
+    position: relative;
+}
 
 
 .b1 .pop .right ul.theme {
@@ -1106,6 +1227,7 @@ ul.nav li img {
 }
 .b2 .pop .right ul.theme {
     background: #BA3864;
+    font-size: 28px;
 }
 .b3 .pop .right ul.theme {
     background: #C8B310;
@@ -1121,4 +1243,9 @@ ul.nav li img {
 }
 .b7 .pop .right ul.theme {
     background: #028777;
+    font-size: 26px;
+}
+
+.DS4_64 > .left .text p.title {
+    font-size: 50px;
 }
