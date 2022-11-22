@@ -1,4 +1,6 @@
 @charset "utf-8";
+/* swiper */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.css);
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@300&family=Playfair+Display:wght@500&display=swap');
 
@@ -19,22 +21,30 @@ a:visited {
     color: inherit;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.content{
+    height: 100vh;
+}
+
 /* header */
 #header {
     height: 75px;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 101;
     border-radius: 0 0 30px 30px;
     background: rgba(255, 255, 255, 0.3);
     transition: .6s;
     max-width: 100%;
 }
-#header:hover {
-    height: 100vh;
+/* #header:hover {
+    height: 90vh;
     transition: .6s;
-}
+} */
 
 ul.nav {
     display: flex;
@@ -70,10 +80,20 @@ ul.nav li img {
 }
 
 /* s01 */
-.s01 {
+#s01 {
     height: 100vh;
+    overflow: hidden;
+    transition: all 0.5s;
 }
-.s01 h1 {
+.fixed {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+#s01 h1 {
     width: fit-content;
     height: fit-content;
     font-size: 120px;
@@ -84,26 +104,36 @@ ul.nav li img {
     color: #fff;
 }
 
-.s01 .sideL, .s01 .sideS {
+#s01 .sideL, #s01 .sideS {
     width: 100px;
     height: 120px;
     text-align: center;
     line-height: 120px;
     cursor: pointer;
-    background: #fff;
-    border: 2px solid #fff;
+    background:  rgba(255, 255, 255, 0.3);
+    border: 1px solid #fff;
     border-right: none;
     border-radius: 20px 0 0 20px;
+    transition: all 0.5s;
 }
-.s01 .sideL {
+#s01 .sideL:hover, #s01 .sideS:hover {
+    background: #fff;
+}
+#s01 .sideL {
     position: absolute;
     right: 0;
     top: 10%;
 }
-.s01 .sideS {
+.sideL > a {
+    transition: all 0.5s;
+}
+#s01 .sideS {
     position: absolute;
     right: 0;
     top: 23%;
+}
+.sideS > a {
+    transition: all 0.5s;
 }
 .sideL img {
     width: 95px;
@@ -120,15 +150,23 @@ ul.nav li img {
     vertical-align: middle;
 }
 
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 /* s02 */
-.s02, .s03 {
+#s02, #s03 {
     text-align: center;
     display: flex;
     align-items: center;
     height: 100vh;
     position: relative;
+    transition: all 0.5s;
 }
-.s02 img, .s03 img {
+#s02 img, #s03 img {
     width: 100%;
     height: 100%;
     object-fit: cover;

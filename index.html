@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DisneyLand</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.css">
     <link rel="stylesheet" href="/pjdland/css/index.css">
 </head>
 <body>
@@ -20,15 +21,34 @@
             </li>
         </ul>
     </div>
-    <div class="s01">
-        <h1>The kingdom of<br>Dreams and Magic</h1>
-        <div class="sideL" role="button"><img src="/pjdland/images/rightSide_L.png" alt="land button"></div>
-        <div class="sideS" role="button"><img src="/pjdland/images/rightSide_s.png" alt="land button"></div>
-        <div>
-            <img src="/pjdland/images/main01.png" alt="main">
+    <div id="s01" class="content">
+        <div class="fixed">
+            <h1>The kingdom of<br>Dreams and Magic</h1>
+            <div class="sideL"><a href="#s02"><img src="/pjdland/images/rightSide_L.png" alt="land button"></a></div>
+            <div class="sideS"><a href="#s03"><img src="/pjdland/images/rightSide_s.png" alt="sea button"></a></div>
+        </div>
+        <div class="swiper autoplay">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/pjdland/images/main01.png" alt="main">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/pjdland/images/main02.jpg" alt="main">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/pjdland/images/main03.jpg" alt="main">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/pjdland/images/main04.jpg" alt="main">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/pjdland/images/main05.jpg" alt="main">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </div>
-    <div class="s02">
+    <div id="s02" class="content">
         <img src="/pjdland/images/land/Landsection.png" alt="지도" usemap="#landmap">
         <map name="landmap">
             <area id="worldbazaar" shape="rect" coords="765,788,1210,878" alt="1구역" href="#" title="worldBazaar">
@@ -1096,7 +1116,7 @@
             </div>
         </div>   
     </div>
-    <div class="s03">
+    <div id="s03" class="content">
         <img src="/pjdland/images/sea/Seasection.png" alt="지도" usemap="#seamap">
         <map name="seamap">
             <area id="mediterraneanHarbor" shape="rect" coords="695,684,1242,774" alt="1구역" href="#" title="mediterraneanharbor">
@@ -1826,6 +1846,7 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
     <script src="/pjdland/js/index.js"></script>
 </body>
 </html>
