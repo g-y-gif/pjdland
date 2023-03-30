@@ -1,6 +1,9 @@
 
 $(function(){
 
+    // 알림창
+    alert('이 사이트는 1920x1024를 기준으로 제작되었습니다.');
+
     // 기본 이벤트 제거
     window.addEventListener("wheel", function(e){
         e.preventDefault();
@@ -99,52 +102,52 @@ $(function(){
     // s02 area
     // worldbazaar
     $("#worldbazaar").hover(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/landmap_1.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/landmap_1.png")
     });
     $("#worldbazaar").mouseleave(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/Landsection.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/Landsection.png")
     });
     // adventureLand
     $("#adventureLand").hover(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/landmap_2.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/landmap_2.png")
     });
     $("#adventureLand").mouseleave(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/Landsection.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/Landsection.png")
     });
     // westernLand
     $("#westernLand").hover(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/landmap_3.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/landmap_3.png")
     });
     $("#westernLand").mouseleave(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/Landsection.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/Landsection.png")
     });
     // critterCountry
     $("#critterCountry").hover(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/landmap_4.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/landmap_4.png")
     });
     $("#critterCountry").mouseleave(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/Landsection.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/Landsection.png")
     });
     // fantasyLand
     $("#fantasyLand").hover(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/landmap_5.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/landmap_5.png")
     });
     $("#fantasyLand").mouseleave(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/Landsection.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/Landsection.png")
     });
     // toonTown
     $("#toonTown").hover(function(){
         $("#s02 > img").attr("src", "/pjdland/images/land/landmap_6.png")
     });
     $("#toonTown").mouseleave(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/Landsection.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/Landsection.png")
     });
     // tomorrowLand
     $("#tomorrowLand").hover(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/landmap_7.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/landmap_7.png")
     });
     $("#tomorrowLand").mouseleave(function(){
-        $("#s02 > img").attr("src", "/pjdland/images/land/Landsection.png")
+        $("#s02 > img").attr("src", "../pjdland/images/land/Landsection.png")
     });
     $("#s02 map area").click(function(){
         var index = $(this).index()
@@ -158,52 +161,52 @@ $(function(){
     // s03 area
     // mediterraneanHarbor
     $("#mediterraneanHarbor").hover(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/seamap_1.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/seamap_1.png")
     });
     $("#mediterraneanHarbor").mouseleave(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/Seasection.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/Seasection.png")
     });
     // americanWaterfront
     $("#americanWaterfront").hover(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/seamap_2.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/seamap_2.png")
     });
     $("#americanWaterfront").mouseleave(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/Seasection.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/Seasection.png")
     });
     // portDiscovery
     $("#portDiscovery").hover(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/seamap_3.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/seamap_3.png")
     });
     $("#portDiscovery").mouseleave(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/Seasection.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/Seasection.png")
     });
     // lostRiverDelta
     $("#lostRiverDelta").hover(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/seamap_4.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/seamap_4.png")
     });
     $("#lostRiverDelta").mouseleave(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/Seasection.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/Seasection.png")
     });
     // arabianCoast
     $("#arabianCoast").hover(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/seamap_5.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/seamap_5.png")
     });
     $("#arabianCoast").mouseleave(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/Seasection.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/Seasection.png")
     });
     // mermaidLagoon
     $("#mermaidLagoon").hover(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/seamap_6.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/seamap_6.png")
     });
     $("#mermaidLagoon").mouseleave(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/Seasection.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/Seasection.png")
     });
     // mysteriousIsland
     $("#mysteriousIsland").hover(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/seamap_7.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/seamap_7.png")
     });
     $("#mysteriousIsland").mouseleave(function(){
-        $("#s03 > img").attr("src", "/pjdland/images/sea/Seasection.png")
+        $("#s03 > img").attr("src", "../pjdland/images/sea/Seasection.png")
     });
     $("#s03 map area").click(function(){
         var index = $(this).index()
