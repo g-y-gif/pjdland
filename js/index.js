@@ -2,7 +2,7 @@
 $(function(){
 
     // 알림창
-    alert('이 사이트는 1920x1024를 기준으로 제작되었습니다.');
+    alert('이 사이트는 1920x1080을 기준으로 제작되었습니다.');
 
     // 기본 이벤트 제거
     window.addEventListener("wheel", function(e){
